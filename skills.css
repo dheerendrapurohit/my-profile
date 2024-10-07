@@ -1,0 +1,55 @@
+/* skills.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#main {
+    background-color:#571e25;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.logo {
+    margin: 15px;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.logo h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.logo img:active {
+    transform: scale(0.9);
+}
